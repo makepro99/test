@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>技術紹介｜摩擦接合用スタッドボルト研究会</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">
+          <img src="images/3ddcc55e972e7bdf2eb9523a8703f068961bfbd1.png" alt="研究会ロゴ" class="brand-logo">
+          <span class="brand-name"><span class="nowrap">摩擦接合用スタッドボルト</span>研究会</span>
+        </a>
+        <div class="nav-links">
+          <a href="about.html" class="nav-link">研究会について</a>
+          <a href="technology.html" class="nav-link active">技術紹介</a>
+          <a href="activities.html" class="nav-link">活動内容</a>
+          <a href="projects.html" class="nav-link">施工事例</a>
+          <a href="downloads.html" class="nav-link">資料ダウンロード</a>
+          <a href="contact.html" class="nav-link">お問合せ</a>
+        </div>
+        <div class="nav-mobile-toggle">
+          <button class="hamburger" id="hamburger" aria-label="メニュー">
+            <svg class="icon-menu" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            <svg class="icon-close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display:none">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="about.html" class="mobile-link">研究会について</a>
+        <a href="technology.html" class="mobile-link">技術紹介</a>
+        <a href="activities.html" class="mobile-link">活動内容</a>
+        <a href="projects.html" class="mobile-link">施工事例</a>
+        <a href="downloads.html" class="mobile-link">資料ダウンロード</a>
+        <a href="contact.html" class="mobile-link">お問合せ</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Test Site Banner -->
+  <div class="test-banner">
+    <p>※本サイトはテスト用です。正式なホームページではありません</p>
+  </div>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="page-header-bg" style="background-image:url('images/fb6e0dfda655444fb985884ff5695e0469eb9b06.png')"></div>
+      <div class="page-header-overlay"></div>
+      <div class="page-header-content reveal">
+        <h1 class="page-header-title">技術紹介</h1>
+        <p class="page-header-sub">Technology</p>
+      </div>
+    </section>
+
+    <!-- Content: Images only -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="tech-images">
+          <div class="reveal"><img src="images/31b12d023b153f80c5946135bf16ef24c8fcde5d.png" alt="技術紹介 1" class="tech-img"></div>
+          <div class="reveal"><img src="images/f815856bd376d6c008f869b4ff9ff2b5594514e5.png" alt="技術紹介 2" class="tech-img"></div>
+          <div class="reveal"><img src="images/d3f50be9cc5c5f78cccc3b8a4da87cc1811ce888.png" alt="技術紹介 3" class="tech-img"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 摩擦接合用スタッドボルト研究会. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">研究会について</a>
+        <a href="technology.html" class="footer-link">技術紹介</a>
+        <a href="activities.html" class="footer-link">活動内容</a>
+        <a href="projects.html" class="footer-link">施工事例</a>
+        <a href="downloads.html" class="footer-link">資料ダウンロード</a>
+        <a href="contact.html" class="footer-link">お問合せ</a>
+        <a href="privacy.html" class="footer-link">個人情報・免責事項・著作権</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const iconMenu = hamburger.querySelector('.icon-menu');
+    const iconClose = hamburger.querySelector('.icon-close');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      iconMenu.style.display = open ? 'none' : 'block';
+      iconClose.style.display = open ? 'block' : 'none';
+    });
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReduced) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      }, { threshold: 0.15 });
+      document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach((el) => el.classList.add('in'));
+    }
+  </script>
+
+</body>
+</html>
