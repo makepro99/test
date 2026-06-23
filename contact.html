@@ -90,62 +90,12 @@
             </div>
           </div>
 
-          <!-- Form / Confirm -->
-          <div class="contact-form-wrap reveal">
-            <!-- Step: form -->
-            <div id="formStep">
-              <h2 class="contact-h2">お問い合わせフォーム</h2>
-              <form id="contactForm" class="contact-form" novalidate>
-                <div class="field">
-                  <label>お名前 <span class="req">*</span></label>
-                  <input type="text" name="name" required placeholder="山田 太郎">
-                </div>
-                <div class="field">
-                  <label>会社名・団体名</label>
-                  <input type="text" name="company" placeholder="株式会社〇〇">
-                </div>
-                <div class="field">
-                  <label>メールアドレス <span class="req">*</span></label>
-                  <input type="email" name="email" required placeholder="example@example.com">
-                </div>
-                <div class="field">
-                  <label>電話番号</label>
-                  <input type="tel" name="phone" placeholder="03-1234-5678">
-                </div>
-                <div class="field">
-                  <label>お問い合わせ内容 <span class="req">*</span></label>
-                  <select name="category" required>
-                    <option value="">選択してください</option>
-                    <option value="membership">入会について</option>
-                    <option value="technology">技術について</option>
-                    <option value="certification">技量認定について</option>
-                    <option value="documents">資料請求</option>
-                    <option value="other">その他</option>
-                  </select>
-                </div>
-                <div class="field">
-                  <label>詳細内容 <span class="req">*</span></label>
-                  <textarea name="message" required rows="6" placeholder="お問い合わせ内容をご記入ください"></textarea>
-                </div>
-                <button type="submit" class="form-submit">送信する</button>
-                <p class="form-note"><span class="req">*</span> は必須項目です</p>
-              </form>
-            </div>
-
-            <!-- Step: confirm -->
-            <div id="confirmStep" style="display:none">
-              <h2 class="contact-h2">送信内容の確認</h2>
-              <div class="confirm-list" id="confirmList"></div>
-              <div class="confirm-note">
-                <p>この内容でメールを送信します。よろしいですか？</p>
-              </div>
-              <div class="confirm-actions">
-                <button type="button" id="backBtn" class="confirm-back">
-                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
-                  戻る
-                </button>
-                <button type="button" id="sendBtn" class="confirm-send">送信する</button>
-              </div>
+          <!-- お問い合わせフォーム（Googleフォーム埋め込み） -->
+          <div class="contact-form-embed reveal">
+            <h2>お問い合わせフォーム</h2>
+            <p class="contact-embed-note">下記フォームに必要事項をご記入のうえ、送信してください。送信内容は事務局にて確認いたします。</p>
+            <div class="contact-embed-frame">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyzl9TTAhzgo37uuLSuBBQSmRejb3pYZipF6KGVnUJHTDszQ/viewform?embedded=true" width="640" height="1343" frameborder="0" marginheight="0" marginwidth="0" title="お問い合わせフォーム">読み込んでいます…</iframe>
             </div>
           </div>
         </div>
@@ -178,46 +128,6 @@
     if(!pr){const io=new IntersectionObserver((es)=>{es.forEach((e)=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.15});document.querySelectorAll('.reveal').forEach((el)=>io.observe(el));}
     else{document.querySelectorAll('.reveal').forEach((el)=>el.classList.add('in'));}
 
-    // Form 2-step logic
-    const categoryLabels={membership:"入会について",technology:"技術について",certification:"技量認定について",documents:"資料請求",other:"その他"};
-    const form=document.getElementById('contactForm');
-    const formStep=document.getElementById('formStep');
-    const confirmStep=document.getElementById('confirmStep');
-    const confirmList=document.getElementById('confirmList');
-    let data={};
-
-    function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
-
-    form.addEventListener('submit',(e)=>{
-      e.preventDefault();
-      if(!form.checkValidity()){form.reportValidity();return;}
-      const fd=new FormData(form);
-      data={name:fd.get('name'),company:fd.get('company'),email:fd.get('email'),phone:fd.get('phone'),category:fd.get('category'),message:fd.get('message')};
-      // build confirm rows
-      let rows='';
-      rows+=`<div class="confirm-row"><p class="confirm-label">お名前</p><p class="confirm-value">${esc(data.name)}</p></div>`;
-      if(data.company) rows+=`<div class="confirm-row"><p class="confirm-label">会社名・団体名</p><p class="confirm-value">${esc(data.company)}</p></div>`;
-      rows+=`<div class="confirm-row"><p class="confirm-label">メールアドレス</p><p class="confirm-value">${esc(data.email)}</p></div>`;
-      if(data.phone) rows+=`<div class="confirm-row"><p class="confirm-label">電話番号</p><p class="confirm-value">${esc(data.phone)}</p></div>`;
-      rows+=`<div class="confirm-row"><p class="confirm-label">お問い合わせ内容</p><p class="confirm-value">${esc(categoryLabels[data.category]||data.category)}</p></div>`;
-      rows+=`<div class="confirm-row"><p class="confirm-label">詳細内容</p><p class="confirm-value confirm-pre">${esc(data.message)}</p></div>`;
-      confirmList.innerHTML=rows;
-      formStep.style.display='none';
-      confirmStep.style.display='block';
-      window.scrollTo(0,0);
-    });
-
-    document.getElementById('backBtn').addEventListener('click',()=>{
-      confirmStep.style.display='none';
-      formStep.style.display='block';
-    });
-
-    document.getElementById('sendBtn').addEventListener('click',()=>{
-      const label=categoryLabels[data.category]||data.category;
-      const subject=`お問い合わせ：${label}`;
-      const body=`お名前：${data.name}\n会社名・団体名：${data.company}\nメールアドレス：${data.email}\n電話番号：${data.phone}\nお問い合わせ内容：${label}\n\n詳細内容：\n${data.message}`;
-      window.location.href=`mailto:ogomori@nsw-j.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    });
   </script>
 </body>
 </html>

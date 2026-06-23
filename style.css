@@ -472,3 +472,84 @@ a { text-decoration: none; color: inherit; }
 .dlform-redl:hover{ color:#1d4ed8; }
 .dlform-back{ display:inline-block; color:var(--blue-600); transition:color .2s; }
 .dlform-back:hover{ color:#1d4ed8; text-decoration:underline; }
+
+/* ===== Projects: 施工事例 写真ギャラリー ===== */
+.proj-intro{ text-align:center; max-width:46rem; margin:0 auto 3rem; color:var(--gray-600); font-size:1.125rem; line-height:1.8; }
+.proj-cards{ display:grid; grid-template-columns:1fr; gap:2rem; }
+@media (min-width:768px){ .proj-cards{ grid-template-columns:repeat(3,1fr); } }
+.proj-card{
+  display:block; background:#fff; border:2px solid var(--gray-200); border-radius:0.75rem;
+  overflow:hidden; transition: border-color .3s, box-shadow .3s, transform .3s;
+}
+.proj-card:hover{ border-color:var(--blue-400); box-shadow:0 12px 20px -6px rgba(0,0,0,0.15); transform:translateY(-4px); }
+.proj-card-thumb{ position:relative; aspect-ratio:3/2; overflow:hidden; background:var(--gray-100); }
+.proj-card-thumb img{ width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+.proj-card:hover .proj-card-thumb img{ transform:scale(1.05); }
+.proj-card-tag{
+  position:absolute; top:0.75rem; left:0.75rem; background:rgba(15,23,42,0.85); color:#fff;
+  font-size:0.8125rem; font-weight:700; padding:0.3rem 0.75rem; border-radius:0.375rem;
+}
+.proj-card-body{ padding:1.25rem 1.5rem 1.5rem; }
+.proj-card-title{ font-size:1.25rem; font-weight:700; color:var(--gray-900); margin-bottom:0.5rem; }
+.proj-card-desc{ color:var(--gray-600); font-size:0.9375rem; line-height:1.6; }
+.proj-card-more{ display:inline-flex; align-items:center; gap:0.35rem; margin-top:1rem; color:var(--blue-600); font-weight:600; font-size:0.9375rem; }
+.proj-card:hover .proj-card-more{ text-decoration:underline; }
+
+.proj-table-link{ text-align:center; margin-top:3.5rem; }
+.proj-table-link a{ display:inline-flex; align-items:center; gap:0.5rem; color:var(--blue-600); font-weight:600; transition:color .2s; }
+.proj-table-link a:hover{ color:#1d4ed8; text-decoration:underline; }
+
+/* ===== Work detail page: メイン拡大写真 + サムネイル ===== */
+.work-back{ margin-bottom:1.5rem; }
+.work-back a{ display:inline-flex; align-items:center; gap:0.4rem; color:var(--blue-600); font-weight:600; transition:color .2s; }
+.work-back a:hover{ color:#1d4ed8; text-decoration:underline; }
+
+.work-layout{ display:grid; grid-template-columns:1fr; gap:3rem; }
+@media (min-width:960px){ .work-layout{ grid-template-columns:1.15fr 1fr; align-items:start; } }
+
+.work-gallery{ position:sticky; top:9rem; }
+.work-main{
+  width:100%; aspect-ratio:3/2; border-radius:0.75rem; overflow:hidden;
+  background:var(--gray-100); border:1px solid var(--gray-200);
+  box-shadow:0 6px 12px -4px rgba(0,0,0,0.12); margin-bottom:1rem;
+}
+.work-main img{ width:100%; height:100%; object-fit:cover; }
+.work-thumbs{ display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; }
+.work-thumb{
+  aspect-ratio:3/2; border-radius:0.5rem; overflow:hidden; cursor:pointer;
+  border:2px solid var(--gray-200); background:var(--gray-100); padding:0;
+  transition:border-color .2s, transform .2s;
+}
+.work-thumb img{ width:100%; height:100%; object-fit:cover; }
+.work-thumb:hover{ transform:translateY(-2px); }
+.work-thumb.active{ border-color:var(--blue-600); box-shadow:0 0 0 2px var(--blue-100); }
+.work-caption{ margin-top:0.75rem; font-size:0.875rem; color:var(--gray-500); text-align:center; }
+
+.work-info-title{ font-size:1.5rem; font-weight:700; color:var(--gray-900); margin-bottom:1.5rem; }
+.work-info-table{ width:100%; border-collapse:collapse; font-size:0.9375rem; }
+.work-info-table th, .work-info-table td{ border:1px solid var(--gray-200); padding:0.75rem 1rem; text-align:left; vertical-align:top; }
+.work-info-table th{ background:#f1f5f9; color:var(--gray-900); font-weight:700; white-space:nowrap; width:34%; }
+.work-info-table td{ color:#374151; }
+.work-desc{ margin-top:1.75rem; color:#374151; font-size:1rem; line-height:1.8; }
+.work-desc p{ margin-bottom:1rem; }
+
+@media (max-width:480px){
+  .work-thumbs{ grid-template-columns:repeat(3,1fr); }
+}
+
+/* ===== Contact: Googleフォーム埋め込み ===== */
+.contact-form-embed{ background:var(--gray-50); padding:2rem; border-radius:0.5rem; height:100%; }
+.contact-form-embed h2{ font-size:1.875rem; font-weight:700; color:var(--gray-900); margin-bottom:0.75rem; }
+.contact-embed-note{ font-size:0.875rem; color:var(--gray-500); margin-bottom:1.5rem; line-height:1.7; }
+.contact-embed-frame{
+  width:100%; border:1px solid var(--gray-200); border-radius:0.5rem;
+  background:#fff; overflow:hidden;
+}
+.contact-embed-frame iframe{ display:block; width:100%; min-height:1200px; border:0; }
+
+/* ===== 資料DLフォーム：Googleフォーム埋め込み ===== */
+.dlform-embed-frame{
+  width:100%; border:1px solid var(--gray-200); border-radius:0.5rem;
+  background:#fff; overflow:hidden; margin-top:1.5rem;
+}
+.dlform-embed-frame iframe{ display:block; width:100%; min-height:1513px; border:0; }
