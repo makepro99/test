@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fde9c8"/><stop offset="1" stop-color="#fef6ea"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#94a3b8"/><stop offset="1" stop-color="#64748b"/></linearGradient></defs>
+    <rect width="1200" height="800" fill="url(#sky)"/>
+<path d="M0 600 H1200 V800 H0 Z" fill="#cbd5e1"/>
+<rect x="80" y="280" width="20" height="320" fill="#ea580c"/><line x1="90" y1="285" x2="420" y2="150" stroke="#1e293b" stroke-width="5"/>
+<rect x="200" y="520" width="180" height="80" rx="8" fill="#f59e0b"/><circle cx="240" cy="610" r="26" fill="#1e293b"/><circle cx="350" cy="610" r="26" fill="#1e293b"/>
+<rect x="700" y="430" width="420" height="50" fill="#64748b"/><g transform="translate(560,500) scale(1.0)">
+      <ellipse cx="0" cy="120" rx="34" ry="8" fill="#000" opacity="0.12"/>
+      <rect x="-16" y="58" width="13" height="58" rx="5" fill="#1e293b"/>
+      <rect x="3" y="58" width="13" height="58" rx="5" fill="#1e293b"/>
+      <rect x="-22" y="6" width="44" height="58" rx="10" fill="#f97316"/>
+      <rect x="-22" y="28" width="44" height="9" fill="#e5e7eb" opacity="0.85"/>
+      <rect x="-34" y="10" width="13" height="40" rx="6" fill="#f97316"/>
+      <rect x="21" y="10" width="13" height="40" rx="6" fill="#f97316"/>
+      <circle cx="0" cy="-12" r="16" fill="#f1c79b"/>
+      <path d="M -19 -12 a 19 14 0 0 1 38 0 z" fill="#facc15"/>
+      <rect x="-22" y="-13" width="44" height="6" rx="3" fill="#eab308"/></g>
+<circle cx="950" cy="180" r="70" fill="#facc15" opacity="0.5"/>
+<text x="600" y="730" font-family="sans-serif" font-size="40" fill="#92400e" text-anchor="middle" font-weight="bold">床版取替 工事現場</text></svg>
