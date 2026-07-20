@@ -8,6 +8,33 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+  /* 技術紹介資料：PowerPointをページ画像としてそのまま表示 */
+  .tech-images {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .tech-page {
+    margin: 0;
+  }
+  .tech-page + .tech-page {
+    margin-top: 32px;
+  }
+  .tech-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  @media (max-width: 767px) {
+    .tech-page + .tech-page {
+      margin-top: 20px;
+    }
+  }
+</style>
 </head>
 <body>
 
@@ -16,7 +43,7 @@
     <nav class="nav">
       <div class="nav-inner">
         <a href="index.html" class="brand">
-          <img src="images/3ddcc55e972e7bdf2eb9523a8703f068961bfbd1.png" alt="研究会ロゴ" class="brand-logo">
+          <img src="images/icon.png" alt="研究会ロゴ" class="brand-logo">
           <span class="brand-name"><span class="nowrap">摩擦接合用スタッドボルト</span>研究会</span>
         </a>
         <div class="nav-links">
@@ -59,7 +86,7 @@
 
     <!-- Page Header -->
     <section class="page-header">
-      <div class="page-header-bg" style="background-image:url('images/fb6e0dfda655444fb985884ff5695e0469eb9b06.png')"></div>
+      <div class="page-header-bg" style="background-image:url('images/back_d.png')"></div>
       <div class="page-header-overlay"></div>
       <div class="page-header-content reveal">
         <h1 class="page-header-title">技術紹介</h1>
@@ -71,9 +98,21 @@
     <section class="section section-white">
       <div class="container">
         <div class="tech-images">
-          <div class="reveal"><img src="images/31b12d023b153f80c5946135bf16ef24c8fcde5d.png" alt="技術紹介 1" class="tech-img"></div>
-          <div class="reveal"><img src="images/f815856bd376d6c008f869b4ff9ff2b5594514e5.png" alt="技術紹介 2" class="tech-img"></div>
-          <div class="reveal"><img src="images/d3f50be9cc5c5f78cccc3b8a4da87cc1811ce888.png" alt="技術紹介 3" class="tech-img"></div>
+          <figure class="tech-page">
+            <img src="images/technology-page-01.png" alt="技術紹介資料 1~2ページ目" class="tech-img" loading="eager" decoding="async">
+          </figure>
+          <figure class="tech-page reveal">
+            <img src="images/technology-page-03.png" alt="技術紹介資料 3ページ目" class="tech-img" loading="lazy" decoding="async">
+          </figure>
+          <figure class="tech-page reveal">
+            <img src="images/technology-page-04.png" alt="技術紹介資料 4ページ目" class="tech-img" loading="lazy" decoding="async">
+          </figure>
+          <figure class="tech-page reveal">
+            <img src="images/technology-page-05.png" alt="技術紹介資料 5ページ目" class="tech-img" loading="lazy" decoding="async">
+          </figure>
+          <figure class="tech-page reveal">
+            <img src="images/technology-page-06.png" alt="技術紹介資料 6ページ目" class="tech-img" loading="lazy" decoding="async">
+          </figure>
         </div>
       </div>
     </section>

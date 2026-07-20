@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>お知らせ一覧｜摩擦接合用スタッドボルト研究会</title>
+<title>摩擦接合用スタッドボルト研究会　設立総会開催｜摩擦接合用スタッドボルト研究会</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
@@ -45,43 +45,25 @@
 </header>
 <div class="test-banner"><p>※本サイトはテスト用です。正式なホームページではありません</p></div>
 <main class="main">
-<!-- Page Header (blue gradient) -->
-<section class="members-header">
-<div class="container">
-<div class="reveal">
-<h1 class="page-header-title">お知らせ一覧</h1>
-<p class="page-header-sub">News</p>
-</div>
-</div>
-</section>
 <section class="section section-white">
-<div class="container">
-<div class="news reveal"><!-- 新しい順 -->
-<div class="news-row">
-<span class="badge badge-news">お知らせ</span>
-<span class="news-date">2026.06.09</span>
-<p class="news-text"><a class="news-link" href="news-test2.html">テスト2</a></p>
+<div class="container-narrow"><article class="news-article">
+<p class="news-article-date">2026.5.29</p>
+<h1 class="news-article-title">摩擦接合用スタッドボルト研究会　設立総会開催</h1>
+<div class="news-article-body">
+<p>2026年5月29日、KITENA新大阪において、「摩擦接合用スタッドボルト研究会」の設立総会を開催しました。</p>
+
+<p>総会では、会長に大阪公立大学の山口隆司教授、副会長に関西大学の石川敏之教授を選任するとともに、研究会規約、各役員の任命、今年度の委員会活動計画および予算案について審議を行い、いずれも承認されました。</p>
+
+<p>今後は、高強度スタッドボルトを用いた鋼橋の補修・補強技術について、設計、製作、施工、維持管理に関する情報共有を進め、品質確保と技術開発に取り組んでまいります。</p>
+
+<p>総会終了後には、出席者による記念撮影を行いました。</p>
+<figure class="news-article-figure">
+<img alt="摩擦接合用スタッドボルト研究会 設立総会の集合写真" src="../images/news/20260713-general-meeting.jpg"/>
+</figure>
 </div>
-<div class="news-row">
-<span class="badge badge-news">お知らせ</span>
-<span class="news-date">2026.06.09</span>
-<p class="news-text"><a class="news-link" href="news-test.html">テスト</a></p>
-</div>
-<div class="news-row">
-<span class="badge badge-news">お知らせ</span>
-<span class="news-date">2026.5.29</span>
-<p class="news-text"><a class="news-link" href="news-20260529.html">研究会設立総会開催</a></p>
-</div>
-<div class="news-row">
-<span class="badge badge-important">重要</span>
-<span class="news-date">2026.04.08</span>
-<p class="news-text">研究会設立準備を進めています</p>
-</div>
-</div>
-<div class="news-back">
+</article><div class="news-back">
 <a class="news-back-link" href="../index.html">‹ トップページへ戻る</a>
-</div>
-</div>
+</div></div>
 </section>
 </main>
 <footer class="footer">
@@ -102,9 +84,6 @@
     const hamburger=document.getElementById('hamburger'),mobileMenu=document.getElementById('mobileMenu');
     const iconMenu=hamburger.querySelector('.icon-menu'),iconClose=hamburger.querySelector('.icon-close');
     hamburger.addEventListener('click',()=>{const o=mobileMenu.classList.toggle('open');iconMenu.style.display=o?'none':'block';iconClose.style.display=o?'block':'none';});
-    const pr=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(!pr){const io=new IntersectionObserver((es)=>{es.forEach((e)=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.15});document.querySelectorAll('.reveal').forEach((el)=>io.observe(el));}
-    else{document.querySelectorAll('.reveal').forEach((el)=>el.classList.add('in'));}
   </script>
 </body>
 </html>
