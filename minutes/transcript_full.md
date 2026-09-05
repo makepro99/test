@@ -1,9 +1,9 @@
 # 全文文字起こし（自動生成 / 未校正）
 
-音源: 458c2a04-_____13.m4a（72分）  モデル: Whisper large-v3-turbo (int8, sherpa-onnx)
+音源: 458c2a04-_____13.m4a（72分）／モデル: Whisper large-v3-turbo (int8, sherpa-onnx) + Silero VAD
 
-質疑応答（30:05〜）は言語別リトライ＋ループ除去をかけた高精度版です。
-
+質疑応答（30:05〜）は言語別リトライ・繰り返しループ除去・低信頼チャンクの窓ずらし再デコードをかけた高精度版です。
+低信頼だったチャンクには別解を `(別解: ...)` として併記しています。
 
 ## 00:00 – 30:05  前半（JICA調査・事業説明パート）
 
@@ -220,7 +220,7 @@
 - **40:26** We'll see. It's a very, I think it is very good here if we can adopt this knowledge to minimize the risk of possible disaster capabilities. Yes, of course.
 - **40:38** So, what?
 - **40:41** Who is the designer to make?
-- **40:44** We have...
+- **40:44** We have...  `(別解: Who is the designer? We have... I thought I was...)`
 - **40:51** I thought I was C squared. Minimals, not directly with C squared.
 - **41:01** We have C-squared is being adopted or designer of other external clients but we have here Alcantara Ubay, our designer.
 - **41:16** あうすいあったったらおうたんむすらあくしょんむすらあくしょんんんくくえてん
@@ -253,13 +253,13 @@
 - **45:47** Okay.
 - **45:48** Don't engage you
 - **45:52** The third pile is corrosion protection.
-- **46:05** - -
+- **46:05** - -  `(別解: Corrosho. Drusting. Comparament. Corrosho.)`
 - **46:18** コンクリートのこれ難しいちょっと待って
 - **46:23** Is that an alloy? What kind of material is that I spot by? So no mama is. So no mama is. Embedded in concrete solid formats.
 - **46:38** all 40. ah okay embedded should be embedded in the concrete so wait it will rust no need not to be exposed start to emit it in a wooden wooden slab concrete oh
 - **46:54** So, the river doesn't rest. Okay, it should be invaded.
-- **47:02** もしそれがびてはいけないっていう必要があれば
-- **47:17** 出せる前にサビのゴースの
+- **47:02** もしそれがびてはいけないっていう必要があれば  `(別解: So if you expose the air, it could be rusted.)`
+- **47:17** 出せる前にサビのゴースの  `(別解: びてはいけないっていう必要があれば 節する前にびのコースを)`
 - **47:27** Buon distavereci
 - **47:28** Kupakan selipai di setahun.
 - **47:36** If we do the mechanical connection on site, meaning not on the
@@ -267,18 +267,18 @@
 - **47:56** on short but I mean so how will you put the how will put what's the material that you're going to make it mechanical connected? mechanical connect some molds I do what I miss
 - **48:09** 難しいね。ットでクイの情報内からすぐ調べてみます。
 - **48:23** BIPCOPOST
-- **48:25** 는다.
+- **48:25** 는다.  `(別解: I'm going to get a little)`
 - **48:27** 難しいのち
-- **48:29** きましょうか
+- **48:29** きましょうか  `(別解: ちょっと難しい話できますきましょうか)`
 - **48:45** and also the Bhagat Tha Salaam is saying that the authority feels that they should not
 - **48:55** That's it
 - **48:59** Okay.
 - **49:00** Also, the Magata-san is saying that if you need a kind of special specification for the anti-rust or the reward, they have an experience about anti-rust.
 - **49:12** treatment before okay it's like a paint paint
-- **49:39** 업!
+- **49:39** 업!  `(別解: Okay, hey, we want to know the thing.)`
 - **49:41** Wie kommt denn ab? Ich bin ein Drogen für ab.
 - **49:45** Den Klavier die Örn und die Bolle an.
-- **49:49** Айдна, кастов, гиб
+- **49:49** Айдна, кастов, гиб  `(別解: and then we have to do it.)`
 - **49:51** and cheek and toe.
 - **50:02** I beat the music
 - **50:04** PC講いっていう
@@ -286,7 +286,7 @@
 - **50:37** Kasi parang kung nag-indikin, ako nga, nagaling ay ay, hindi siya sa 'yo. E, alam niyo yung shed, di ba may naralita ang 6 meters na shed? Pagalitin mag-collapse yung bu
 - **50:48** or the the whole length of the file should be uh pre-cast or uh
 - **51:01** mechanical connected in the plant. The whole if we need 30 meters we need to or get.
-- **51:11** - 그 본인의 이름을 하여 는다.
+- **51:11** - 그 본인의 이름을 하여 는다.  `(別解: But what do you guys have to do with the entire?)`
 - **51:14** 全部の長さずっと全長までという人が大事なのです。10mぐらいのやつをついていくかもしれません。
 - **51:29** okay so we can connect the um or the construction side
 - **51:40** Hey, Paul.
@@ -295,11 +295,11 @@
 - **51:50** There is a length, there is a maximum length between the two. It can carry its connection.
 - **52:05** about Ed Miller's, my respect is, remember Cantaji?
 - **52:11** para ni cojan
-- **52:13** どうしてもいいですか?
-- **52:21** 頭がに頭がいる。
-- **52:36** Okay.
+- **52:13** どうしてもいいですか?  `(別解: that's the end of yourself the best conflict that will be several back after the meeting that's a panel panel panel)`
+- **52:21** 頭がに頭がいる。  `(別解: ご視ありがとうございました)`
+- **52:36** Okay.  `(別解: このビリンリのコクションがあると、方との下のがついているので、 何かにもコクションがあるので、)`
 - **52:50** The mechanical connection is the current.
-- **52:54** is
+- **52:54** is  `(別解: The C-S-B-Ward is belonging to the head of the piles and end of the piles with the head each other. This kind of can be done.)`
 - **53:05** Okay?
 - **53:07** So it is also connected.
 - **53:10** Top 28th of Venus because of the name.
@@ -315,8 +315,8 @@
 - **53:57** So what is the connection? What would it start? A rib, rib. Well, it's done. That's good work.
 - **54:05** Oh
 - **54:21** I think they are dusty.
-- **54:26** はい、
-- **54:38** - -
+- **54:26** はい、  `(別解: I get that but this is so... This has been a good one. But this is so... So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what is the next one? So what)`
+- **54:38** - -  `(別解: So, we have to get to the end of the day.)`
 - **54:49** ...and the three work X for the beginning of the present, and the reason why they have it to fight, but for all.
 - **54:57** The cast. We can start over. How about the...
 - **55:02** uh uh
@@ -332,12 +332,12 @@
 - **56:12** This one will be also precasted. But if we precasted, so how to export this one?
 - **56:28** by the by image still
 - **56:32** But before you drop on the freeboard, should be already connected the two files.
-- **56:49** Right?
+- **56:49** Right?  `(別解: Before you drop on the free board, should be already connected the two files, right?)`
 - **57:05** Yeah, it is such a bad
 - **57:10** T-grounder. Okay. Okay. Okay.
 - **57:17** and then it's okay now that not data now we got it
 - **57:21** ¿Cómo te crees por el problema? ¿Por la uruxar? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema
-- **57:33** -
+- **57:33** -  `(別解: and combination sharing both files and the image is fine in case not on the impact on tracking.)`
 - **57:45** Thank you for your support.
 - **57:55** What is boring? Tregol!
 - **57:58** Preparing myself.
@@ -352,7 +352,7 @@
 - **59:03** ソフィキャスターのクイと相手の
 - **59:06** のの間のところはどうですか?間は最後落とす?間はね、定する
 - **59:16** とてするっていうのも
-- **59:18** 하,
+- **59:18** 하,  `(別解: 定する定するっていうのもはーてーなんていうの?じっと)`
 - **59:20** 在这边的电影中的电影中的电影中的
 - **59:23** Punti lang naman yung backname. Mayroon pa rin naman. Dax, dung mungo sa ilalim. Pagungo pa rin sa ilalim. Sa i-tas, dax,
 - **59:38** Kaya ano yun eh? Apan boring, the file should be placed immediately. May tayo na. Before the mixing agent. A mixing agent?
@@ -361,7 +361,7 @@
 - **60:18** Just a picture of cement.
 - **60:30** これ、コムに分かられたのが、クイメーカーの人たちでした。
 - **60:35** We are not sure about the detail of the material because the pie manufacturer makes the liquid. Ah, I mean, it's just some pie to make sure. Yeah, that's good.
-- **60:52** 後ろ、後
+- **60:52** 後ろ、後  `(別解: Yeah, that's okay. Yeah. Let me see the... Okay. After... Let's go both then. Do you have a little hit before or after? After. After. After. Okay.)`
 - **61:05** Good.
 - **61:08** Since Tresco, I just told you earlier that Tresco will be the distributor and also the installer.
 - **61:18** of this pad pile so if we get na use uh we i think we we adopt this kind of uh boring so trisco will also do that the pre-boring and uh
@@ -369,10 +369,10 @@
 - **61:34** Then we shot the thinnest flurries, right?
 - **61:37** I think sir, the installation of Banscorp. Only? Yeah. Save with ice.com.
 - **61:46** When we are going to install the stadbord, we are going to install the stadbord to 1.000. So where do you get the, let's say, Spotify? Who is the manufacturer of Spotify?
-- **62:00** 10.
+- **62:00** 10.  `(別解: see spotify what's who is the manufacturer of spotify japan)`
 - **62:05** What is the biggest bad you are available?
 - **62:14** Because here we have a project of 2.5 meters.
-- **62:19** 日本のプレイキャストのは
+- **62:19** 日本のプレイキャストのは  `(別解: Because here we have a project of 2.5 meters.)`
 - **62:35** 最大1200ミリ1.2m 直1.2mただし
 - **62:44** 角グイ、こちらの角グイよりもクイの強さがめちゃめちゃ強いです。すごく強いのでクイの本数はらせます。
 - **62:55** So then after he's saying that the 1.2 meters died, that's, it's a kind of BS one.
@@ -399,7 +399,7 @@
 - **65:23** Papa, n'a la papa, baby
 - **65:26** これだとノイズも出ないし動も出ない
 - **65:35** I'd make some new photos.
-- **65:39** 日本の音が非常に大きくなっているのです
+- **65:39** 日本の音が非常に大きくなっているのです  `(別解: - In Japan, the noise is very something you see.)`
 - **65:54** So it's great. The main ones. And the money that the.
 - **66:08** Very silent. Quiet. Quiet. Your last question sir about the distribution, the installation, absolutely we haven't finalized it yet.
 - **66:22** So we are going to visit again, so we'll have to discuss them.
@@ -410,7 +410,7 @@
 - **67:26** Power and industrial plants. Industrial plants. Special projects.
 - **67:34** DMCA focus. How about DMCA focus? Analyst Business Unit. Analyst Business Unit.
 - **67:42** コロナイドアスリー・フラン・デン・シア・フラン・フラ
-- **67:52** 1日何本ぐらい打てるか
+- **67:52** 1日何本ぐらい打てるか  `(別解: Ah, so, what I did was, for example, 20 meters, that's for the same range, and 20 meters of the crew, by being water light, in social life, 1日, what more than that? Ah, so, here we go.)`
 - **68:06** I think we can ask for the kind of time. I'm a friend. But in general, in my experience, I'm like, I'm like, I'm pretty.
 - **68:23** We need to clarify.
 - **68:33** That is for 8 hours per day.
