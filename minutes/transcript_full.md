@@ -1,0 +1,438 @@
+# 全文文字起こし（自動生成 / 未校正）
+
+音源: 458c2a04-_____13.m4a（72分）  モデル: Whisper large-v3-turbo (int8, sherpa-onnx)
+
+質疑応答（30:05〜）は言語別リトライ＋ループ除去をかけた高精度版です。
+
+
+## 00:00 – 30:05  前半（JICA調査・事業説明パート）
+
+- **02:08** It's done.
+- **02:13** Wait po na din sila sir yung duva? Ah, wait siya kung may dalaw. Gagodito ka na.
+- **02:21** um
+- **02:24** 誰で定なのか
+- **02:28** 현재께 바 일하.
+- **02:38** I'm sure I want to stop the oven.
+- **02:44** I forgot my college
+- **03:10** Thank you.
+- **03:35** Thank you.
+- **03:51** Hello, I'm Masoto Ogura from NIPPONSOP Building and I'm working for SELF Team. Thank you.
+- **04:02** Tendrá ser cuidado. Así que, pues.
+- **04:11** - Vali male. - Vali male.
+- **04:13** Ah, sweet job.
+- **04:20** I'm a typical black and you can have a letter and you want to consider it.
+- **04:27** はい、です。
+- **04:41** 先に、もう一回、タイプのパワーを作っています。はい、見てください。ちょっと一だけ、音が出るからだけ、確認させてもらってから、きして、
+- **04:59** テストだけちょっと指してね。テストがOKやったらどうか、お待ちしてもらえてもらえます。すみません。すみません。
+- **05:08** Wait for the Latin Salamis. It's okay. They can start.
+- **05:25** Okay, so good afternoon everyone while waiting for the others. I think we can start. Yeah, we can start. Yeah. Thank you for your time sir. Thank you for having us here today. Actually, butting ako, binigyan niyo kami na ng schedule today. Yeah. So, I'm Gina Lien. I'm from Tristo. So, and I am with...
+- **05:53** from Pacific Consultant and NSW team, Agora-san, Magada-san and Agamori-san. Yeah, I think you are going to research something here.
+- **06:09** I'm Omomori, an engineer from Japan, engineering engineering, engineering of construction.
+- **06:19** Thank you. Nice meeting you. I'm Hiroyasu Magata from Nippon Start Welding Japan. I'm a sales division and I'm a director of this project. Nice to meet you. Nice to meet you. Hello, I'm Makoto Okura. I'm Makoto Okura from Nippon Start Welding. I'm working for sales team. Nice meeting you. Nice to meet you.
+- **06:45** So my name is Soichi Rando from Estate Consultants from Japan. This time the Nippon Start Weddings project is a survey for business development. So we are supporting them through the year. So my base is architecture. Thank you.
+- **07:05** okay so that would be all sure uh sorry actually uh just to uh
+- **07:14** introduced Trisco first. Trisco is a trading company for over 45 years and a trading company distributes construction and automotive products including the NSW Stad Welding. With their technology, with their health, we can do the installation of Stad Welding.
+- **07:42** Aside from that, we have rockwood insulation. We distribute rockwood brand and thermal tech brand and we have safety shoes and other basic DBA. And aside from stud welding, we do have XRF analyzer to check metals.
+- **08:00** yeah and now i'll leave the floor to an sw to present the first time yes okay we prepared the short we prepared the video but first of all we would like to check if the video going through well thank you so so the quiet keys are checking the video so i like to people so i would i like to explain something about the project
+- **08:27** So that this time the Nipong Pad, their project now is the corporation of the JAPA.
+- **08:34** Jai-Car project. The team of that wedding has been selected by Jai-Car.
+- **08:43** and they're going to have a PhD study to find out the business development through the Philippines with the technologies.
+- **08:56** The project is one year, starting just so best this year and ending to the end of July of next year.
+- **09:05** so uh and they have they're planning to visit philippine maybe three times and this is the first time to visit okay so um so and they are planning to have many uh
+- **09:23** to have a meeting with us potential stakeholders like that
+- **09:28** local authorities and Japanese based consulting companies and Japanese based construction company also the Philippines based construction company
+- **09:43** to have a hearing to gather the information about
+- **09:48** kind of market analysis on the market analysis
+- **09:53** find any gaps between the kind of technical standards between the Japanese standards and the Japanese standards, right? So we are actually consulting with helping them to develop their visibility studies through the year. So, and also this project is not kind of a...
+- **10:12** side cut beef project like that um
+- **10:17** uh kind of national loans like this it's kind of a small project just helping the new post-traveling that's what people study for just one year but maybe next next step
+- **10:31** Oh.
+- **10:33** J can make sign any kind of voices.
+- **10:38** for the construction regarding the technologies to relate with the...
+- **10:45** like the uh local construction company but just one year is just a feasibility studies
+- **10:54** You think of how
+- **10:57** That's good to hear that you are, we support the, I think the project of JAICA, in particular for the disaster risk, the disaster management, by application of this technology.
+- **11:11** So actually, their technologies can.
+- **11:15** enhance and I mean that included high-speed performance. So, you can see the buildings and infrastructure or free power building. So, maybe they will present the technical support.
+- **11:32** The presentation is all set up, so we will place a video regarding introduction of NSW report start building, introduction, and overview of our prior start method, which can contribute in the...
+- **11:52** Contribute for
+- **11:54** reduction of earthquake and this kind of natural disaster and this video approaches me about 20 minutes okay yes
+- **12:21** Sorry, we need to... Thank you all for joining us. I will present your project selected under GIFAS SDGs Business Support Survey by utilizing stud welding methods in the Philippines. Now, let's get started.
+- **12:45** First, I would like to give a brief introduction to our company.
+- **12:50** Nippon Stud Welding was established in 1969. We have 108 employees and our sales in 2024 were 5.48 billion yen, roughly 35 billion US dollars.
+- **13:06** headquarters is in Kawasaki, near Tokyo. We have six locations across Japan and one over-tee space in Thailand.
+- **13:15** We have three divisions: automotive parts, automotive welding machine, and construction and plant, which is responsible for this serving, provides integrated solutions covering stub materials, welding equipment, and stub welding methods.
+- **13:36** let me explain what's Doug welding in using a short video.
+- **13:44** A stud is a bolt shaped or rod shaped steel component. Loaded into a welding gun with a ceramic barrel, it is welded to steel in a fraction of a second. Let us look at the problems.
+- **13:57** First, the stud is inserted into the welding band.
+- **14:03** Next, the ceramic barrel is placed around the stud. The welding gun is held perpendicular to the steel plate. When the trigger is pressed, welding is completed in about one second. The gun is removed and the ferrule is broken away. That completes the process.
+- **14:22** Because the full cross-section of the stud fuses to the steel plate, the joint does not fail in the hammer bed test up to the specified angle.
+- **14:40** Even in the more demanding tensile test, the joint is strong enough that failure does not occur at the well. In building and civil engineering, studs embedded in concrete tie, the steel concrete to a composite structure, giving excellent seismic performance.
+- **15:05** This is the cable state bridge on the Shumanami Kaido Expressway connecting Hiroshima and Eihai. It was Japan's first cable state bridge with a composite girder structure. Many studs joined the steel and concrete girders, helping the structure resist earthquake forces.
+- **15:27** This slide shows the main stub types and their applications.
+- **15:31** Pile studs connect precast concrete piles to build a foundation.
+- **15:37** This is the main focus of the servant.
+- **15:40** Pettit's does integrate steel and concrete in building floors, seismic isolation dampers, and expressways. They already have a track record in the Philippines.
+- **15:52** Threaded studs attach components to column bases and other steel structures, and they also have a local track record here as well.
+- **16:01** Deformed bar studs strengthen reinforced concrete walls, bridge piers, and sea walls. These are also the studs used in the Pile Stud Method, which I will explain next. In this survey, we will focus on the Pile Stud Method while also checking demand for the other applications.
+- **16:26** introduce the pile stud method, the main technology in this survey.
+- **16:32** Deformed bar studs are installed to the steel end plates of precast PHC or PRC piles, creating a rigid pile-to-pile cap connection. The method has obtained a construction technology review and certification from the Building Center of Japan has been used in many construction projects in Japan.
+- **16:56** Let's take a look at the actual construction process. When an earthquake exceeding the design assumptions on a building, the pile on the right is subjected to compression, while the pile on the left is subjected to uplift. The pile under compression may fail in shear, while the pile under tension may fracture, potentially leading to the collapse of the building.
+- **17:23** To prevent this, deformed bar skies are installed to the pilehead, as shown in the figure on the right.
+- **17:30** This is the pile-stud method, which provides a rigid pile-to-pile cap connection.
+- **17:38** Here's the work on site. Each stud is installed with a stud welding gun. The stud stands vertically on the pile head plate and fuses completely with the base metal. Each weld takes only a few seconds and the studs are placed one after another at the marked positions. All studs are then inspected, both visually and by a bed test.
+- **18:02** conventional deformed bar hangry. The work is simpler. The destruction period is short.
+- **18:12** Specifically, we have confirmed that the strength of the file cap connection can be improved by at least 10%. Construction efficiency can be increased by more than three times, and construction plot will be reduced by up to 20%.
+- **18:30** However, whether the safe benefits can be achieved in the Philippines will be verified through various activities during this survey.
+- **18:40** The Pyle-Stun method has two prerequisites.
+- **18:44** First, the use of precast concrete piles is required. There are two main types of piles: precast piles, which are manufactured in a factory and delivered to the construction site, and cast-in-place piles, which are constructed by pouring concrete on site. The pile-stud method can only be applied to precast concrete piles and therefore requires their use.
+- **19:12** The pre-boring method is required for pile installation
+- **19:17** The driven pile method is an economical construction method that is widely used in many countries. However, problems associated with this method include noise and vibration caused by pile driving, as well as damage to the pile head.
+- **19:34** In contrast, the pre-bore method involves drilling holes before installing the piles. As a result, it generates less noise and vibration. However, it is more expensive than the driven pile method.
+- **19:50** At present, our understanding is that neither precast concrete piles nor the pre-boring method is used in the Philippines. Therefore, one of the key points of this survey is to determine whether both the piles and the construction method can be adopted together.
+- **20:10** The Philippines was selected as our target country because it faces a high risk of natural disasters, particularly typhoons and earthquakes.
+- **20:21** or improving the seismic performance of buildings and infrastructure is a critical issue.
+- **20:28** At the same time, rapid urbanization, particularly in Metro Manila, has led to increasing development of high-rise buildings, roads, bridges, and other infrastructure.
+- **20:42** Therefore, it is not enough simply to expand infrastructure. It is also essential to ensure that these structures are resilient to natural disasters.
+- **20:54** particular for pile foundations. Even if the piles themselves have sufficient strength, the building may not be adequately supported during an earthquake if the connection between the pile and the building, the pile cap connection, is weak.
+- **21:12** We believe that improving the reliability of these pilehead connections is one area where our technology can contribute.
+- **21:22** This project aims to strengthen infrastructure and reduce natural disaster risk in the Philippines through wider application of stud welding methods.
+- **21:33** The target area is the major regions of Luzon Island, centered on Metro Manoa. The survey runs for one year, from August 2026 to August 2027.
+- **21:47** This does not mean that product sales or instruction work will begin immediately. The purpose is to confirm local needs and determine what kind of sustainable business model could be established here.
+- **22:01** The survey will focus on five priority areas.
+- **22:05** First, we will assess the market environment, including the size of the construction and infrastructure markets, as well as competing and alternative methods.
+- **22:17** Second, we will identify target customers and assess their needs, including government agencies, construction companies, design firms, and pile manufacturers.
+- **22:30** Third, we will assess the feasibility of our business, including the technical suitability of our technology, the use of the pre-boring method, local procurement of piles, relevant regulations, and price competitiveness.
+- **22:46** Fourth, we will assess the potential social impact by identifying the beneficiaries and considering how our business could contribute to reducing disaster risks.
+- **22:58** This, we will develop a business plan based on the results of these surveys.
+- **23:04** The purpose is not only to find out whether there is a need for our technology, but also to find out whether the business can be commercialized.
+- **23:15** We will assess the potential hurdles to commercialization from six perspectives.
+- **23:22** We will assess the technical suitability, including whether the pre-tested files used for the PileSTUD method can be procured locally.
+- **23:32** Second, we will interview local piling contractors to determine whether the necessary construction equipment and systems for the pre-boring method can be established.
+- **23:44** Third, we will consider whether the pile-stug method can also be applied to civil engineering projects, such as pile foundations for bridges, in addition to the building sector.
+- **23:57** Or, we will investigate regulations, including the differences between Japanese cheese standards and local standards, seismic codes, and certification systems for construction methods.
+- **24:11** Fifth, we will examine barriers to foreign investment.
+- **24:16** the establishment of a local company and foreign ownership restrictions.
+- **24:21** Finally, we will assess price competitiveness, including the costs of exporting products from Japan, price differences with overseas products, and local distribution conditions.
+- **24:35** Through these assessments, we will determine whether the pile-stud method can be adapted to local conditions, rather than simply being transferred from Japan as it is.
+- **24:47** The survey will run for 12 months from August 2026 to August 2027.
+- **24:54** In the first half, we will focus on understanding the market environment, target customers, and local needs.
+- **25:03** Based on these findings, we will assess the feasibility of the business, including technical suitability, material procurement, regulations, and price competitiveness. In the second half, we will focus on assessing the social impact and developing the business plan.
+- **25:22** We plan to conduct three field visits to the Philippines, plus one contingency visit, with each visit lasting approximately seven days.
+- **25:33** By combining these field visits with desk research in Japan, we will organize the information needed to make a commercialization decision.
+- **25:44** The survey will be carried out not only by our company, but also in cooperation with GIAICA Consultants, our local partner and Japanese partner companies.
+- **25:55** As the main organization conducting the survey, Niphan Stud Welding will be responsible for technical proposals, local interviews, and developing the business plan.
+- **26:07** Pacific Consultants and PWC Consulting as GICA Consultants will support the survey design, analysis, preparation of interview topics, and review of the findings.
+- **26:20** Trisco, our local partner, will accompany us during local interviews, provide construction and market information, and discuss the future business structure.
+- **26:32** On Concrete Industries, the Japanese pile manufacturer will examine technical cooperation related to pile manufacturing and the possibility of procuring piles locally.
+- **26:46** OICC, our Japanese distributor, will accompany us during local interviews and assess Trisco's level of construction skills on site.
+- **26:57** This diagram shows the flow of construction, materials,
+- **27:02** After commercialization, Japan is on the left and the Philippines is on the right.
+- **27:09** The arrows show the flow of materials, construction services, payments, orders, technical cooperation, technical support, and sales cooperation.
+- **27:21** First, regarding the project donors, we are considering government agencies and local governments, as well as private developers. They all place construction orders with major construction companies.
+- **27:35** of the work handled by the major construction companies. This method involves two components: stud welding and piles.
+- **27:44** For stud welding, the major construction company will place an order with Trisco, a local contractor, covering both materials and installation.
+- **27:56** The materials will flow from our company through OSCC to Trisco, while payments will flow in the opposite direction. In addition, we will provide technical guidance to Trisco through OSCC, with the aim of establishing a system in which the work can be carried out locally.
+- **28:17** For the piles, the major construction company will place an order with a pile manufacturer in the Philippines or a third country. Nippon Concrete Industries will provide manufacturing technology guidance to the pile manufacturer and receive technical guidance fees or money-related fees.
+- **28:39** In other words, final manufacturing and installation, as well as stud welding work, will be localized, while the Japanese side will be involved through the supply of stud welding materials, technical guidance, and licensing.
+- **28:55** Through this survey, we will confirm whether this division of roles can actually be established.
+- **29:02** The project aims to create five development impacts.
+- **29:07** Improved seismic performance of buildings and pile foundations.
+- **29:13** It has infrastructure resilience.
+- **29:17** Reduced faster risk
+- **29:19** Improved construction quality
+- **29:23** human resource development and job creation.
+- **29:27** These efforts will contribute to SDG 11, sustainable cities and communities, and to Chiayca Global Agenda 20, disaster risk reduction through prevention efforts.
+- **29:43** With these outcomes as our targets, we will carry out the survey over the next year in cooperation with all the stakeholders involved.
+- **29:52** We sincerely appreciate your support and cooperation through help this project.
+- **29:58** That concludes our presentation. Thank you very much for your attention.
+
+## 30:05 – 72:00  質疑応答（高精度版）
+
+- **30:04** looks at
+- **30:08** you
+- **30:11** So you're the local distributor and installer.
+- **30:18** Okay, so we can help Rantik with the DMC date for now.
+- **30:22** Where is that bolt on? Where is that bolt? Recent projects bought with stud welding projects.
+- **30:31** You have a project with us? Yeah. What project? There are a pioneer. There are a pioneer. I think it was last year.
+- **30:43** Okay, so it's good to hear your presentation regarding your product and your technology about file study method.
+- **30:55** Okay, um
+- **30:58** So, initially, currently, for our project, this is about your survey, this survey regarding the duration of your survey.
+- **31:14** So this is your first time here in the MCI. So, Panda Kasorbe.
+- **31:17** yeah with the MCI okay so the structure of the MCI we have a business unit one of the business units we have the different business units here in the MCI so we are one of them we are under power and industrial plants
+- **31:31** that is the mobile business units. The other one is under is infrastructure, other is buildings, and the other is power and industrial plants.
+- **31:42** other one the other is that the dmti homes is another business units yeah okay so we are just one group only okay so i don't know some other group will still we can conduct them another meeting with them
+- **31:55** Okay, so with regards to our business units, we are conducting the projects that we have is mostly is power plants. Okay.
+- **32:05** power plants and fuel depots and intrashell buildings
+- **32:12** Okay, so that's our mainly our target projects.
+- **32:18** Okay, so with regards with these products, okay, we also cater our clients. We have external clients and affiliates clients that we have. External, meaning the other companies other than the NTI.
+- **32:34** So we also cater on that. But we also, with those projects, we have design and build projects. We give them a design and build projects from the external and affiliates project.
+- **32:50** clients so at the same time we had to build the construction or build the only type of project
+- **32:57** Okay meaning that the design is based on their work designer. Okay?
+- **33:08** With regards to apply, I think for the application of this product, I think we need to talk to our designer.
+- **33:16** Our construction, I mean the designer, the structural designer. In-house? In-house, right? We are limited for the in-house, but then currently it's a third party that will assist us. Okay. And eventually we can, I think we can...
+- **33:33** We'll see, we can set a meeting with them also for these applications of this technology.
+- **33:40** okay it's a big help for us so the benefits of this new product
+- **33:50** for the i just want to okay previously we have we got this um uh type of uh file uh i think the span file we got that's one of the projects that is the specified on the specifications that we that we did
+- **34:06** from them, so, but then the spawn files limited in the polybeats.
+- **34:11** the uh the manufacturer or uh yeah the manufacturer of this span pie is limited here in the Philippines um as usually in Malaysia but then as you at least on your presentations um
+- **34:26** correct me if i'm wrong um but you don't need bar and you don't need more uh rebars inside the pile
+- **34:34** And you just place the stud file on the top, right? No, clean it. So, the saving help.
+- **34:44** 現場の理も多くいるということはないですね
+- **34:50** So that's the advantage is that to minimize the rebars inside that we put inside the pile.
+- **35:05** And, uh,
+- **35:07** For the file driving, we adjust TA. We have a precast file, a concrete precast file.
+- **35:13** We do our manufacturer is our concrete products, the group of our supplier, the DDMD, other the DMCI manufacturer of Redimix concrete.
+- **35:28** Mereka juga melakukan file precast.
+- **35:32** concrete, good prickle, spine.
+- **35:34** Okay, for the precast, complete precast pile, that is the one of the rectangular part, not the hollow. Yeah, the precast pile is not the hollow one. The hollow is the dispawn pile. The loaded one.
+- **35:48** Maybe rectangular. Yeah, so that's concrete pile. The question is, how we can adopt that, for the previous pile, how we can adopt that SPAD pile on that kind of pile?
+- **36:03** 角にどうやってたら用できますかということですよね角に用しようと思ったら角の上にスタッド用の鉄板を取り付けないとダメっていう角の上に鉄板が必要が一つそれと
+- **36:18** の上に鉄板が必要なのと打が
+- **36:26** Énergie.
+- **36:27** 打っていうのは、さっきの
+- **36:30** I don't know what to do. So one solution is the steel plate needs to be placed on the top of the rectangular pipe to have a stud. Okay.
+- **36:45** and to the
+- **36:48** to protect the steel plate from the tops. The pi method for the heavyweight.
+- **36:54** hammering hammer is not allowed okay as you can see in the presentation they need a kind of pre-boring
+- **37:03** pre-boring method is is not applicable the pre-boring is applicable so okay that's is costly okay um
+- **37:11** Okay, just looking for another, just asking for other advantages on that part. We do minimal to use pre-boring here in the Philippines. We do always here, piling works.
+- **37:26** hammer that's the usual here okay that's why i asked if what's the advantage if if you still use the spot file
+- **37:36** and by using filing not pre-boring, filing drywall.
+- **37:45** while driving, nothing to prove wearing. Do you have any experience before about the pre-waring method? Currently, I don't have.
+- **37:54** Sir Raymond, do you have experience of the pre-boarding previously on your project? Yes. Do you have? The boarding, first, is that it's not usual. It's not a general practice in Disney.
+- **38:11** 3, 4, 3, 4, 3,
+- **38:13** I think this is one possible one of the methods.
+- **38:18** There are so many methods for the pre-body, for the, we can do the, by hacking, for the exposure, but for the, for the.
+- **38:32** Stan, you should put the steel tape on the top on the head so where to build the stance, right?
+- **38:43** So, Snake Dustless would be the one that we would be if...
+- **38:50** Iyong makakasam sa borsa, iyo mapaparay sa borsa, iyo i-explik sa
+- **38:55** So parang inang yung purpose niya eh
+- **38:58** Okay, but then you put free boring. You know, men want my picture.
+- **39:04** Same language, same approach. And actually, we are positive and our method. This is repair fast, not positive. Okay, so just explaining, just another...
+- **39:21** he knows that the SPAD file will be to be put on the part of the
+- **39:30** of the pie cup.
+- **39:31** I think that's the use of that for us. The SPAD pile will be part of the pile cap instead of putting more free bars on thousands.
+- **39:44** and the the file cap and the same time we we we will place the column on top that uh
+- **39:51** um okay so i'll as i said um um the designer our decision should uh one uh also you can talk with them and i will ask them if they are available
+- **40:05** to share this new technology with them, who are the people in the Philippines. There's a minimum.
+- **40:16** and uh uh the adaptation i just maybe just uh first here in the philippines to adopt this technology right um
+- **40:26** We'll see. It's a very, I think it is very good here if we can adopt this knowledge to minimize the risk of possible disaster capabilities. Yes, of course.
+- **40:38** So, what?
+- **40:41** Who is the designer to make?
+- **40:44** We have...
+- **40:51** I thought I was C squared. Minimals, not directly with C squared.
+- **41:01** We have C-squared is being adopted or designer of other external clients but we have here Alcantara Ubay, our designer.
+- **41:16** あうすいあったったらおうたんむすらあくしょんむすらあくしょんんんくくえてん
+- **41:22** yeah yeah yes i was the structural designer so so i've said earlier uh we do we do the power plants
+- **41:37** So the power ones needed some 13 port, sometimes it's a port. So we do the piling on the port.
+- **41:49** so that's uh that i think that the question is this is fun file is applicable also on the offshore you
+- **41:56** 我不知道阿在做的
+- **41:58** of these technologies? Yes. Well, the PILSTAR method is something. So their technologies doesn't need a kind of chipping.
+- **42:15** tipping out with the head of the
+- **42:16** files too. We here is do the pile hacking. So the technology doesn't need a pile hacking. Okay. Work on all sites so they can save the time for these works and also the workers.
+- **42:33** また、基と得意が、根質が進むことができる。そういう係が、基と得意が進むことができる。
+- **42:48** rather than the general characters of us regarding
+- **42:52** connections
+- **42:55** how how we can connect the precast file is only the concrete file right is a concrete on top so how we will connect
+- **43:05** the spud pile of tap yes yes yes spud pile is is legit really exposed the rebar right so anyway so the rebar is on the piles and the rebar is on the foundation it's just it's just a
+- **43:20** Just in our convention. Baker.
+- **43:24** sometimes with the welding but sometimes but then i i think uh currently you said we need to put a plate on top yeah so we're in the long start piles yeah um
+- **43:37** So on top of the concrete, on top of the concrete pile, we need a plate, same plate. The plate and the pile will be...
+- **43:48** もうちょっとこうだったね
+- **43:57** 真がありました真がありました動画の方でアリスタットのカタログがカタログがありやすい
+- **44:09** So this is the plate? Right, right. This is the plate. This is the plate.
+- **44:24** とクインはどういう風につながっているのか?コンレートとクインはPC構成でコンクリートになって 機的に
+- **44:35** There's a mechanical connection between the mechanical and the mechanical.
+- **44:44** I work with this steel ring and the concrete pipe is mechanically connected in the factory.
+- **44:57** So, we have to pre-board. So, that's why pre-board.
+- **45:02** The reason why the pre-boarding is needed is just this is applicable if not pre-boarding.
+- **45:11** This one? Oh, this is applicable with the pre-boring. The hammering damage the top of the shield. Okay.
+- **45:24** So it's the mechanical connected offshore before they put it on the pre-bore. Correct. Okay.
+- **45:38** I think storing is still possible and I said here is the pit is not used for something here because it means the pre-warring end.
+- **45:47** Okay.
+- **45:48** Don't engage you
+- **45:52** The third pile is corrosion protection.
+- **46:05** - -
+- **46:18** コンクリートのこれ難しいちょっと待って
+- **46:23** Is that an alloy? What kind of material is that I spot by? So no mama is. So no mama is. Embedded in concrete solid formats.
+- **46:38** all 40. ah okay embedded should be embedded in the concrete so wait it will rust no need not to be exposed start to emit it in a wooden wooden slab concrete oh
+- **46:54** So, the river doesn't rest. Okay, it should be invaded.
+- **47:02** もしそれがびてはいけないっていう必要があれば
+- **47:17** 出せる前にサビのゴースの
+- **47:27** Buon distavereci
+- **47:28** Kupakan selipai di setahun.
+- **47:36** If we do the mechanical connection on site, meaning not on the
+- **47:52** on the
+- **47:56** on short but I mean so how will you put the how will put what's the material that you're going to make it mechanical connected? mechanical connect some molds I do what I miss
+- **48:09** 難しいね。ットでクイの情報内からすぐ調べてみます。
+- **48:23** BIPCOPOST
+- **48:25** 는다.
+- **48:27** 難しいのち
+- **48:29** きましょうか
+- **48:45** and also the Bhagat Tha Salaam is saying that the authority feels that they should not
+- **48:55** That's it
+- **48:59** Okay.
+- **49:00** Also, the Magata-san is saying that if you need a kind of special specification for the anti-rust or the reward, they have an experience about anti-rust.
+- **49:12** treatment before okay it's like a paint paint
+- **49:39** 업!
+- **49:41** Wie kommt denn ab? Ich bin ein Drogen für ab.
+- **49:45** Den Klavier die Örn und die Bolle an.
+- **49:49** Айдна, кастов, гиб
+- **49:51** and cheek and toe.
+- **50:02** I beat the music
+- **50:04** PC講いっていう
+- **50:10** So, let's do it.
+- **50:37** Kasi parang kung nag-indikin, ako nga, nagaling ay ay, hindi siya sa 'yo. E, alam niyo yung shed, di ba may naralita ang 6 meters na shed? Pagalitin mag-collapse yung bu
+- **50:48** or the the whole length of the file should be uh pre-cast or uh
+- **51:01** mechanical connected in the plant. The whole if we need 30 meters we need to or get.
+- **51:11** - 그 본인의 이름을 하여 는다.
+- **51:14** 全部の長さずっと全長までという人が大事なのです。10mぐらいのやつをついていくかもしれません。
+- **51:29** okay so we can connect the um or the construction side
+- **51:40** Hey, Paul.
+- **51:46** Bye.
+- **51:49** Okay.
+- **51:50** There is a length, there is a maximum length between the two. It can carry its connection.
+- **52:05** about Ed Miller's, my respect is, remember Cantaji?
+- **52:11** para ni cojan
+- **52:13** どうしてもいいですか?
+- **52:21** 頭がに頭がいる。
+- **52:36** Okay.
+- **52:50** The mechanical connection is the current.
+- **52:54** is
+- **53:05** Okay?
+- **53:07** So it is also connected.
+- **53:10** Top 28th of Venus because of the name.
+- **53:14** Where is the spotpile here? I'm not going. Stop playing it.
+- **53:19** Oh, cheating.
+- **53:21** El top
+- **53:24** This
+- **53:26** Okay.
+- **53:30** So, be wonderful.
+- **53:34** It's done.
+- **53:35** inside yeah you know inside silver silver to the end okay so uh our question is what is the connection statement for the
+- **53:50** What if we are accomplished on the bottom?
+- **53:57** So what is the connection? What would it start? A rib, rib. Well, it's done. That's good work.
+- **54:05** Oh
+- **54:21** I think they are dusty.
+- **54:26** はい、
+- **54:38** - -
+- **54:49** ...and the three work X for the beginning of the present, and the reason why they have it to fight, but for all.
+- **54:57** The cast. We can start over. How about the...
+- **55:02** uh uh
+- **55:06** So, ah boy boy bye
+- **55:10** More kind of the other. Oh, I need to put up for a file.
+- **55:14** If we pull back the steel title number 5, can't wait to know.
+- **55:19** オーー オーー オーー オーー オーー アーー アーー アーー アーー アーー アーー アー
+- **55:28** and both by the
+- **55:30** So, the public prime is not applied, applied, never after.
+- **55:42** Parang applicable lang talaga sa PCH, PHC, sa PRC. Parang start file nga kanina. Span file. PCH, sa PRC.
+- **55:56** いろいろなタイプを買い スパンイン
+- **56:04** covered so this this will be
+- **56:12** This one will be also precasted. But if we precasted, so how to export this one?
+- **56:28** by the by image still
+- **56:32** But before you drop on the freeboard, should be already connected the two files.
+- **56:49** Right?
+- **57:05** Yeah, it is such a bad
+- **57:10** T-grounder. Okay. Okay. Okay.
+- **57:17** and then it's okay now that not data now we got it
+- **57:21** ¿Cómo te crees por el problema? ¿Por la uruxar? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema? ¿Pero te haces un problema
+- **57:33** -
+- **57:45** Thank you for your support.
+- **57:55** What is boring? Tregol!
+- **57:58** Preparing myself.
+- **58:16** poker
+- **58:25** God bless you, dear God.
+- **58:27** You
+- **58:32** you
+- **58:37** and you're with everyone and that was your connection so that's the two part
+- **58:43** and awake part
+- **58:46** so my another question is this one if you pre-board the uh you pre-board and install that one how do you also compensate the uh oh you uh okay the space between the soil and the
+- **59:02** Free test. Free test.
+- **59:03** ソフィキャスターのクイと相手の
+- **59:06** のの間のところはどうですか?間は最後落とす?間はね、定する
+- **59:16** とてするっていうのも
+- **59:18** 하,
+- **59:20** 在这边的电影中的电影中的电影中的
+- **59:23** Punti lang naman yung backname. Mayroon pa rin naman. Dax, dung mungo sa ilalim. Pagungo pa rin sa ilalim. Sa i-tas, dax,
+- **59:38** Kaya ano yun eh? Apan boring, the file should be placed immediately. May tayo na. Before the mixing agent. A mixing agent?
+- **59:53** between like four and five okay in the between the soil and the file outside so that will be placed after we drop the
+- **60:06** The pile? What kind of mixing agent? It's like a cement? Slurry? Slurry?
+- **60:18** Just a picture of cement.
+- **60:30** これ、コムに分かられたのが、クイメーカーの人たちでした。
+- **60:35** We are not sure about the detail of the material because the pie manufacturer makes the liquid. Ah, I mean, it's just some pie to make sure. Yeah, that's good.
+- **60:52** 後ろ、後
+- **61:05** Good.
+- **61:08** Since Tresco, I just told you earlier that Tresco will be the distributor and also the installer.
+- **61:18** of this pad pile so if we get na use uh we i think we we adopt this kind of uh boring so trisco will also do that the pre-boring and uh
+- **61:31** manufacturing of the thing install installation
+- **61:34** Then we shot the thinnest flurries, right?
+- **61:37** I think sir, the installation of Banscorp. Only? Yeah. Save with ice.com.
+- **61:46** When we are going to install the stadbord, we are going to install the stadbord to 1.000. So where do you get the, let's say, Spotify? Who is the manufacturer of Spotify?
+- **62:00** 10.
+- **62:05** What is the biggest bad you are available?
+- **62:14** Because here we have a project of 2.5 meters.
+- **62:19** 日本のプレイキャストのは
+- **62:35** 最大1200ミリ1.2m 直1.2mただし
+- **62:44** 角グイ、こちらの角グイよりもクイの強さがめちゃめちゃ強いです。すごく強いのでクイの本数はらせます。
+- **62:55** So then after he's saying that the 1.2 meters died, that's, it's a kind of BS one.
+- **63:03** That's 1.2 meters. Almost a month to a minute. But the street has... The street has...
+- **63:11** I mean, big ass pipes. I've seen things very rigid compared to the kind of rectangular pipes. So...
+- **63:19** I think he removes the state of the choppy number of pies can be reduced. Reduce. Ah, better. So by...
+- **63:30** for example we have a 2.5 diameter single tile this is for a transmission line uh fold the pole is around 55 meters so we need to be very rigid so
+- **63:46** To reduce that we need to, if we use a 1.2, 1.2, can you, if the designer or the client wants a 2.5 diameter, can we consult you?
+- **64:00** If how many 1.2 meters? Okay. So, that's why we need to do it. We're going to see the structural calculation and study. Yes.
+- **64:17** to just
+- **64:18** The initial assumptions of maybe.
+- **64:22** They can reduce the numbers compared to 2.2 meters by increasing 0.2.
+- **64:32** diabetes, and cancer. But the other studies need to be necessary.
+- **64:43** ばかめの動画が見たかったんです。
+- **64:48** Don't be support.
+- **64:51** Make money, media.
+- **64:53** あ、勝手の面です。わいい。うん。
+- **64:57** ja das ist rei
+- **65:00** After
+- **65:02** 入れめのが出てくる
+- **65:06** I don't know what I'm saying.
+- **65:13** First inject the growth to...
+- **65:17** The hope, then, inside, higher.
+- **65:23** Papa, n'a la papa, baby
+- **65:26** これだとノイズも出ないし動も出ない
+- **65:35** I'd make some new photos.
+- **65:39** 日本の音が非常に大きくなっているのです
+- **65:54** So it's great. The main ones. And the money that the.
+- **66:08** Very silent. Quiet. Quiet. Your last question sir about the distribution, the installation, absolutely we haven't finalized it yet.
+- **66:22** So we are going to visit again, so we'll have to discuss them.
+- **66:26** Okay, I think for the accreditation here in the village, I think the trades call also accredited, right? Yes.
+- **66:41** and then the other thing is that the company is committed to the company. So, you can see the company is committed to the company. So, you can see the company is committed to the company. So, you can see the company is committed to the company. So, you can see the company is committed to the company. So, you can see the company is committed to the company. So, you can see the company is
+- **66:55** From different groups of assistance? From the operations side. From operations, we are from engineering, contracts and commercials.
+- **67:11** You've mentioned your tayinan, the hay homes, power plants, power plants and industrial units. No, no, power industrial plants, the business units. Power and industrial plants. Power industrial.
+- **67:26** Power and industrial plants. Industrial plants. Special projects.
+- **67:34** DMCA focus. How about DMCA focus? Analyst Business Unit. Analyst Business Unit.
+- **67:42** コロナイドアスリー・フラン・デン・シア・フラン・フラ
+- **67:52** 1日何本ぐらい打てるか
+- **68:06** I think we can ask for the kind of time. I'm a friend. But in general, in my experience, I'm like, I'm like, I'm pretty.
+- **68:23** We need to clarify.
+- **68:33** That is for 8 hours per day.
+- **68:39** Take the pipe.
+- **68:41** Then another product of Treescope, this one.
+- **68:44** So I have here, what's on here is the rock wall insulation. Just insulation only. Or there is a product with insulation inside. A panel? Yeah, something like that. Actually insulation on the same. Okay. Yes, we have a thermal tech branch and a rock wall.
+- **69:01** Rockly tone.
+- **69:02** But more on industrial, off-limit commercial projects. Yes, we do the industrial. Ah, nice. Sometimes they record us for a lot of work. Yeah, we can visit your office. I mean, at this time.
+- **69:18** To introduce rocking bread. Okay.
+- **69:22** Can you tell us a few times that you know, what you need to do with depression? - Oh, okay. - Mama.
+- **69:28** Iser Edwin is requesting if you can help us set an appointment with Alcantaraid Utaikai. Yes, we'll ask them. We'll ask them. I think like you did before, you write down, you even ask a letter.
+- **69:44** Yes. If they will send the name of them a letter if they are available, if they are the same lighting data.
+- **69:52** Yes. We'll ask them if possible. And then I will get them the contact number. And then actually we are leaving tomorrow. And then our second business trip is planning.
+- **70:08** the end of November to the first week of December. So hopefully we could arrange the meeting for the day.
+- **70:20** He said, "Director of the survey said, we already showed this presentation video to DOH and MMDA. Yes, I saw them yesterday. And we are planning to..."
+- **70:35** Introduce DPWH for the next trip.
+- **70:39** or third trip and then we got a lot of other devices and comments from them and we would like to extend some information with you.
+- **70:52** With you for the future or...
+- **70:59** yeah we would like to keep in touch with um sometimes we have this consultation sometimes uh if the issue the project is
+- **71:11** a design I mean we our contracts only build only or design and build sometimes design and build I think we need to consult with you
+- **71:23** with that requirement if this technology is possible to reduce the efficient project.
+- **71:30** Thank you for your game. Yeah, and keep in touch. Yeah. Thank you.
+- **71:38** seeing any more questions
+- **71:43** So we're freezing outside. Thank you. Thank you.
+- **71:57** So limited to the palace in the cross.
