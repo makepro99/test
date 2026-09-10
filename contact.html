@@ -2,13 +2,13 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<!-- テストサイト用：本番公開時に削除してください -->
-<meta name="robots" content="noindex,nofollow">
+<!-- === セキュリティ関連メタ（2026年8月追加） === -->
+<!-- テスト公開中のため検索エンジンにインデックスさせない。本番公開時にこの1行を削除する -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; frame-src https://docs.google.com; form-action 'none'; base-uri 'none'; object-src 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>お問い合わせ｜摩擦接合用スタッドボルト研究会</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>入会・お問い合わせ｜摩擦接合用スタッドボルト研究会</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,26 +22,26 @@
         </a>
         <div class="nav-links">
           <a href="about.html" class="nav-link">研究会について</a>
-          <a href="technology.html" class="nav-link">技術紹介</a>
           <a href="activities.html" class="nav-link">活動内容</a>
+          <a href="technology.html" class="nav-link">技術紹介</a>
           <a href="projects.html" class="nav-link">施工事例</a>
           <a href="downloads.html" class="nav-link">資料ダウンロード</a>
-          <a href="contact.html" class="nav-link active">お問合せ</a>
+          <a href="contact.html" class="nav-link active">入会・お問い合わせ</a>
         </div>
         <div class="nav-mobile-toggle">
           <button class="hamburger" id="hamburger" aria-label="メニュー">
             <svg class="icon-menu" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-            <svg class="icon-close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            <svg class="icon-close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
       </div>
       <div class="mobile-menu" id="mobileMenu">
         <a href="about.html" class="mobile-link">研究会について</a>
-        <a href="technology.html" class="mobile-link">技術紹介</a>
         <a href="activities.html" class="mobile-link">活動内容</a>
+        <a href="technology.html" class="mobile-link">技術紹介</a>
         <a href="projects.html" class="mobile-link">施工事例</a>
         <a href="downloads.html" class="mobile-link">資料ダウンロード</a>
-        <a href="contact.html" class="mobile-link">お問合せ</a>
+        <a href="contact.html" class="mobile-link">入会・お問い合わせ</a>
       </div>
     </nav>
   </header>
@@ -50,10 +50,10 @@
 
   <main class="main">
     <section class="page-header">
-      <div class="page-header-bg" style="background-image:url('images/back_d.png')"></div>
+      <div class="page-header-bg bg-d"></div>
       <div class="page-header-overlay"></div>
       <div class="page-header-content reveal">
-        <h1 class="page-header-title">お問い合わせ</h1>
+        <h1 class="page-header-title">入会・お問い合わせ</h1>
         <p class="page-header-sub">Contact Us</p>
       </div>
     </section>
@@ -78,11 +78,11 @@
                 <p class="contact-indent contact-small">（ダイヘンスタッド株式会社内）</p>
               </div>
               <div class="contact-info-row">
-                <svg width="24" height="24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="flex-shrink:0;margin-top:0.25rem"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                <svg width="24" height="24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" class="icon-fixed"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                 <div><p>〒658-0033</p><p>兵庫県神戸市東灘区向洋町西4-1</p><p class="contact-small">担当：技術部 仲地</p></div>
               </div>
               <div class="contact-info-row">
-                <svg width="24" height="24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="flex-shrink:0;margin-top:0.25rem"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <svg width="24" height="24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" class="icon-fixed"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                 <div><a href="mailto:ogomori@nsw-j.com" class="contact-mail">ogomori@nsw-j.com</a></div>
               </div>
             </div>
@@ -106,26 +106,16 @@
       <p class="footer-copy">© 2026 摩擦接合用スタッドボルト研究会. All rights reserved.</p>
       <div class="footer-links">
         <a href="about.html" class="footer-link">研究会について</a>
-        <a href="technology.html" class="footer-link">技術紹介</a>
         <a href="activities.html" class="footer-link">活動内容</a>
+        <a href="technology.html" class="footer-link">技術紹介</a>
         <a href="projects.html" class="footer-link">施工事例</a>
         <a href="downloads.html" class="footer-link">資料ダウンロード</a>
-        <a href="contact.html" class="footer-link">お問合せ</a>
+        <a href="contact.html" class="footer-link">入会・お問い合わせ</a>
         <a href="privacy.html" class="footer-link">個人情報・免責事項・著作権</a>
       </div>
     </div>
   </footer>
 
-  <script>
-    // Mobile menu
-    const hamburger=document.getElementById('hamburger'),mobileMenu=document.getElementById('mobileMenu');
-    const iconMenu=hamburger.querySelector('.icon-menu'),iconClose=hamburger.querySelector('.icon-close');
-    hamburger.addEventListener('click',()=>{const o=mobileMenu.classList.toggle('open');iconMenu.style.display=o?'none':'block';iconClose.style.display=o?'block':'none';});
-    // Reveal
-    const pr=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(!pr){const io=new IntersectionObserver((es)=>{es.forEach((e)=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.15});document.querySelectorAll('.reveal').forEach((el)=>io.observe(el));}
-    else{document.querySelectorAll('.reveal').forEach((el)=>el.classList.add('in'));}
-
-  </script>
+<script src="script.js"></script>
 </body>
 </html>

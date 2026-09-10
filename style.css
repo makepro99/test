@@ -3,7 +3,11 @@
 * { margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  font-family: "Noto Sans JP", system-ui, -apple-system, sans-serif;
+  /* 端末に最初から入っている日本語ゴシック体を使用（Google Fonts不使用）
+     Mac/iPhone→ヒラギノ角ゴ、Android→Noto Sans JP、Windows→游ゴシック→メイリオ */
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP",
+               "Yu Gothic Medium", "Yu Gothic", "YuGothic", "Meiryo",
+               system-ui, -apple-system, sans-serif;
   line-height: 1.5;
   color: #111827;
   background: #fff;
@@ -575,3 +579,27 @@ a { text-decoration: none; color: inherit; }
 @media (max-width:640px){
   .news-article-title{ font-size:1.65rem; }
 }
+
+/* ==========================================================================
+   ユーティリティ（インラインstyleを廃止してCSPを厳しくするための追加分）
+   2026年8月 追加
+   ========================================================================== */
+
+/* ハンバーガーアイコンの表示切替（旧: JSで style.display を直接操作） */
+.icon-close{ display:none; }
+.hamburger.is-open .icon-menu{ display:none; }
+.hamburger.is-open .icon-close{ display:block; }
+
+/* ページ背景画像（旧: style="background-image:url(...)"）
+   ※ url() は style.css からの相対パスで解決されるため、
+     news/ 配下のページからも同じ指定で正しく表示されます */
+.bg-a{ background-image:url('images/back_a.png'); }
+.bg-b{ background-image:url('images/back_b.png'); }
+.bg-c{ background-image:url('images/back_c.png'); }
+.bg-d{ background-image:url('images/back_d.png'); }
+
+/* 事務局情報のアイコン位置調整（旧: style="flex-shrink:0;margin-top:0.25rem"） */
+.icon-fixed{ flex-shrink:0; margin-top:0.25rem; }
+
+/* 余白ユーティリティ（旧: style="margin-top:1.5rem"） */
+.mt-lg{ margin-top:1.5rem; }
